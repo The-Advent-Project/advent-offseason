@@ -1,0 +1,22 @@
+{
+  "name": "advent-offseason",
+  "version": "1.0.0",
+  "description": "The Advent Project's year-round site.",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "author": "Austin Heller",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "postcss": "^8.4.49",
+    "postcss-preset-env": "^10.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.6"
+  }
+}
