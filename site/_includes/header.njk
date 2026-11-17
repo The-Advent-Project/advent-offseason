@@ -1,4 +1,11 @@
 <head>
+  {% if class == "home" %}
+  <!-- Redirect the home page to this year's site -->
+  <script>
+    window.location.replace('https://2026.adventproject.org');
+  </script>
+  <link rel="canonical" href="https://2026.adventproject.org" />
+  {% endif %}
   <title>
     {% if class == "home" %} {{ title }} – A December full of art for good {%
     else %} {{ title }} – The Advent Project {% endif %}
